@@ -4,12 +4,31 @@
   
   .datatable .col .pointer:after {
     font-size: 80%;
-    content: "";
+    content: "*";
     margin-right: 18px;
   }
   
   .datatable .col .pointer:hover:after {
     font-size: 80%;
-    content: "";
+    content: "*";
     margin-right: 0;
+  }
+
+  table {
+    border: 1px solid purple;
+    height: 50px;
+    vertical-align: bottom;
+    width: 100%;
+  }
+
+  th {
+    border: 1px solid purple;
+    height: 50px;
+    vertical-align: bottom;
+  }
+
+  td {
+    border: 1px solid purple;
+    vertical-align: bottom;
+    
   }

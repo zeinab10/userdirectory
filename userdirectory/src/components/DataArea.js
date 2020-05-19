@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import DataTable from "./DataTable";
 import Nav from "./Nav";
-import API from "../utils/Api.js";
+import API from "../utils/API";
 import "../styles/DataArea.css";
 import DataAreaContext from "../utils/DataAreaContext";
 
@@ -100,7 +100,7 @@ const DataArea = () => {
         filteredUsers: results.data.results
       });
     });
-  },);
+  }, []);
 
   return (
     <DataAreaContext.Provider
